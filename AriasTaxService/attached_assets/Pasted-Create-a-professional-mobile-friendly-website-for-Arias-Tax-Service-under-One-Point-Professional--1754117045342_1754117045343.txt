@@ -1,0 +1,130 @@
+Create a professional, mobile-friendly website for "Arias Tax Service" under One Point Professional Services.
+
+📍 Address: 441 West Olive Ave, Fresno, CA  
+📞 Phone: 559-202-9047  
+📧 Email: gariastax@gmail.com  
+🕒 Business Hours: 10:00 AM – 6:00 PM, Monday through Saturday
+
+---
+
+💻 TECH REQUIREMENTS:
+- Use only HTML, CSS, and JavaScript (no backend server)
+- No API keys or external chatbot libraries
+- All chatbot logic must run locally (JavaScript only)
+- Contact form must actually send to: **gariastax@gmail.com** using **EmailJS**
+- All pages, forms, chatbot, and navigation must be responsive and bug-free
+- Test everything: mobile + desktop
+
+---
+
+🌐 WEBSITE FEATURES:
+
+### 1. ✅ Navigation Bar (Tabs)
+- Sticky top navigation bar with these tabs:
+  - Home
+  - Services
+  - Contact
+  - Make an Appointment (scrolls to contact form)
+  - Chat
+- Works on desktop and mobile
+
+---
+
+### 2. ✅ Homepage
+- Friendly welcome to Arias Tax Service
+- Mention One Point Professional Services
+- Clear display of hours, phone, and email
+- Include professional visuals (see below)
+- Use blue and white color scheme
+- Responsive layout
+
+---
+
+### 3. 📷 Visuals / Photos
+- Add stock or placeholder images:
+  - Happy people filing taxes
+  - Finance, money, tax forms
+  - Smiling professionals and small business owners
+- Images should be:
+  - Responsive
+  - Accessible (`alt` tags)
+  - Appearing on homepage and services section
+
+---
+
+### 4. 📋 Services Section
+- Clearly list services:
+  - Tax Preparation
+  - Bookkeeping
+  - Payroll
+  - Small Business Services
+
+---
+
+### 5. 📩 Contact Form (With EmailJS Integration)
+- Fields:
+  - Full Name
+  - Email Address
+  - Phone Number
+  - Message
+- On submit:
+  - Show: “Thanks! We’ve received your message and will contact you shortly.”
+  - Actually send the submission to: **gariastax@gmail.com**
+- Use **EmailJS** for this (client-side only):
+  - Add the required EmailJS script
+  - Use placeholders in the code for:
+    - SERVICE ID
+    - TEMPLATE ID
+    - PUBLIC KEY
+  - Add a clear comment in code where the business owner should insert these keys
+  - Do not expose secret/private keys in public code
+
+---
+
+### 6. 🤖 AI Chatbot (JavaScript-Only, No API)
+- Add a floating chat icon that opens a friendly chatbot window
+- No external APIs — local only, using JavaScript
+- Replies should be friendly and sound like a helpful assistant
+
+✅ Supported questions & responses:
+
+- **Q: What are your business hours?**  
+  A: “We’re open from 10:00 AM to 6:00 PM, Monday through Saturday. Let us know how we can help!”
+
+- **Q: Where are you located?**  
+  A: “We’re at 441 West Olive Avenue in Fresno — just a few blocks east of the Fresno Chaffee Zoo. Feel free to call if you need directions!”
+
+- **Q: How can I make an appointment?**  
+  A: “You can call us at 559-202-9047 or fill out the contact form here on the website. We’ll take care of you.”
+
+- **Q: What services do you offer?**  
+  A: “We provide tax preparation, bookkeeping, payroll, and small business services. Just let us know what you need help with!”
+
+- **Q: What’s your phone number?**  
+  A: “You can reach us anytime during business hours at 559-202-9047.”
+
+❗ If user asks anything more complex (like tax law or specific financial advice):  
+→ Respond with:  
+**“That’s a great question! Please call us at 559-202-9047 or fill out the contact form — one of our experts will follow up with you directly.”**
+
+- Never say “I don’t know”
+- No chatbot freezing, looping, or confusing behavior
+
+---
+
+### 7. 📞 Contact Page
+- Display:
+  - Address: 441 West Olive Ave, Fresno, CA
+  - Phone: 559-202-9047
+  - Email: gariastax@gmail.com
+- Embed Google Map showing location
+- Add “Click to Call” button for mobile
+
+---
+
+✔️ FINAL CHECKLIST:
+- Mobile + desktop friendly
+- All links, tabs, chatbot, and forms work
+- No APIs for chatbot
+- Form uses **EmailJS** to send to **gariastax@gmail.com**
+- Code is clean, safe, and easy to edit
