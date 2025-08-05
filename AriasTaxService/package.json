@@ -1,0 +1,19 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "Professional, mobile-friendly website for Arias Tax Service (One Point Professional Services) in Fresno, CA.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.5",
+    "@sendinblue/client": "^3.3.1",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.5"
+  }
+}
